@@ -51,6 +51,10 @@ img {
     margin: 0 5px;
 }
 
+.navbar a:hover {
+    border-bottom: 2px white solid;
+}
+
 .navbar .flex {
     justify-content: space-between;
 }
