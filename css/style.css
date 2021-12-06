@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 :root {
     --primary-color: #047aed;
 }
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333;
     line-height: 1.6;
 }
@@ -22,7 +22,6 @@ ul {
 a {
     color: #333;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1,h2 {
@@ -77,6 +76,10 @@ img {
     font-size: 40px;
 }
 
+.next-match h2 {
+    text-align: left;
+}
+
 .showcase p {
     margin: 20px 0;
 }
@@ -97,8 +100,11 @@ img {
     justify-self: flex-end;
 }
 
-.showcase-results {
+.next-match {
     text-align: center;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .showcase::before,
@@ -115,7 +121,42 @@ img {
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
 }
+ /* History */
 
+ .history {
+     padding: 100px;
+     position: relative;
+ }
+
+ .fas {
+     float: left;
+     margin-right: 20px;
+ }
+
+ /* History */
+
+ .history .grid {
+     grid-template-columns: reapeat(3,1fr);
+ }
+
+ /* Next match, Managers, Members */
+
+ .trio .grid {
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(2,1fr);
+ }
+
+ .trio .grid > *:first-child {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+ }
+
+.trio .card {
+    text-align: center;
+}
+.trio .card:hover {
+    transform: scale(0.97);
+}
 
 /* Utilities */
 
@@ -166,6 +207,11 @@ img {
     border: 1px white solid;
     font-size: 15px;
 }
+
 .btn:hover {
     transform: scale(0.97);
 }
+
+/* Margins */
+
+/* Paddings */
