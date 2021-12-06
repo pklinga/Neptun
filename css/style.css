@@ -124,8 +124,10 @@ img {
  /* History */
 
  .history {
-     padding: 100px;
+     padding-top: 100px;
      position: relative;
+     padding-bottom: 30px;
+     border-bottom: whitesmoke 1px solid;
  }
 
  .fas {
@@ -141,6 +143,11 @@ img {
 
  /* Next match, Managers, Members */
 
+ .trio {
+     padding: 30px 0;
+     border-bottom: whitesmoke 1px solid;
+ }
+
  .trio .grid {
      grid-template-columns: repeat(3,1fr);
      grid-template-rows: repeat(2,1fr);
@@ -149,14 +156,21 @@ img {
  .trio .grid > *:first-child {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+    margin-left: 50px;
  }
 
 .trio .card {
     text-align: center;
+    margin-left: 60px;
 }
-.trio .card:hover {
+
+.trio a:hover {
     transform: scale(0.97);
 }
+
+/* Reviews */
+
+
 
 /* Utilities */
 
