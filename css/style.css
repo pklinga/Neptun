@@ -270,11 +270,6 @@ textarea {
         margin-bottom: 0;
     }
 
-    /*.navbar ul {
-        padding: 10px;
-        background-color: rgba(0,0,0,0.2);
-    }*/
-
     .navbar .flex {
         flex-direction: column;
     }
@@ -313,7 +308,7 @@ textarea {
 
     .trio .grid >*:first-child{
         text-align: center;
-        width: 80%;
+        width: 100%;
         margin-left: 0;
         justify-self: center;
         padding: 10px 30px 10px 40px;
@@ -353,11 +348,6 @@ textarea {
     .navbar .logo {
         margin-bottom: 0;
     }
-
-    /*.navbar ul {
-        padding: 10px;
-        background-color: rgba(0,0,0,0.2);
-    }*/
 
     .navbar .flex {
         flex-direction: column;
