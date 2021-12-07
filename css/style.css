@@ -353,6 +353,10 @@ textarea {
         margin-bottom: 0;
     }
 
+    .navbar ul {
+        padding: 10px;
+        }
+
     .navbar .flex {
         flex-direction: column;
     }
