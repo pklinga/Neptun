@@ -455,6 +455,7 @@ textarea {
 
     .navbar {
         height: 200px;
+        padding-top: 10px;
     }
 
     .navbar .logo {
